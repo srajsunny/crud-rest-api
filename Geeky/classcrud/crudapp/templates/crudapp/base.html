@@ -1,0 +1,34 @@
+{% load static %}
+<html>
+<head>
+    <title>CRUD APP</title>
+
+
+    <link rel="stylesheet" href="{% static 'crudapp/css/bootstrap.css' %}" />
+
+
+
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center alert alert-danger"> Base Class Based View ModelForm</h2>
+
+
+        {% block content %}
+
+         {% endblock content %}
+
+
+    </div>
+ 
+
+
+    <script src="{% static 'crudapp/js/jquery.js' %}"></script>
+    <script src="{% static 'crudapp/js/popper.js' %}"></script>
+    <script src="{% static 'crudapp/js/bootstrap.js' %}"></script>
+</body>
+
+
+
+</html>
